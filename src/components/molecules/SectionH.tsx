@@ -1,4 +1,3 @@
-import React from "react";
 import { Static } from "../../assets/img";
 
 export const SectionH = () => {

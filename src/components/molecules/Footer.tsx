@@ -1,4 +1,4 @@
-import { IconCopyright, IconMail, IconMapPin, IconPhone } from "@tabler/icons-react";
+import { IconCopyright, IconMapPin, IconPhone } from "@tabler/icons-react";
 import { Facebook, X, LinkedIn, WhatsApp } from "../atoms/socials";
 
 export const Footer = () => {
