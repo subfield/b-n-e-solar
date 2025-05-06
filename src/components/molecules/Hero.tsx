@@ -1,5 +1,6 @@
 import { IconArrowUpRight } from "@tabler/icons-react";
 import { Static } from "../../assets/img";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -47,14 +48,14 @@ export const Hero = () => {
                       data-ani="slideinup"
                       data-ani-delay="0.6s"
                     >
-                      <a href="contact.html" className="th-btn style1 th-icon">
+                      <Link to="/service" className="th-btn style1 th-icon">
                         <span
                           className="btn-text"
-                          data-back="Get A Quote"
-                          data-front="Get A Quote"
+                          data-back="Learn More"
+                          data-front="Learn More"
                         ></span>
                         <IconArrowUpRight className="ms-2" size={16} />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -96,14 +97,14 @@ export const Hero = () => {
                       data-ani="slideinup"
                       data-ani-delay="0.6s"
                     >
-                      <a href="contact.html" className="th-btn style1 th-icon">
+                      <Link to="/service" className="th-btn style1 th-icon">
                         <span
                           className="btn-text"
-                          data-back="Get A Quote"
-                          data-front="Get A Quote"
+                          data-back="Learn More"
+                          data-front="Learn More"
                         ></span>
                         <IconArrowUpRight className="ms-2" size={16} />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -145,14 +146,14 @@ export const Hero = () => {
                       data-ani="slideinup"
                       data-ani-delay="0.6s"
                     >
-                      <a href="contact.html" className="th-btn style1 th-icon">
+                      <Link to="/service" className="th-btn style1 th-icon">
                         <span
                           className="btn-text"
-                          data-back="Get A Quote"
-                          data-front="Get A Quote"
+                          data-back="Learn More"
+                          data-front="Learn More"
                         ></span>
                         <IconArrowUpRight className="ms-2" size={16} />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -194,14 +195,14 @@ export const Hero = () => {
                       data-ani="slideinup"
                       data-ani-delay="0.6s"
                     >
-                      <a href="contact.html" className="th-btn style1 th-icon">
+                      <Link to="/service" className="th-btn style1 th-icon">
                         <span
                           className="btn-text"
-                          data-back="Get A Quote"
-                          data-front="Get A Quote"
+                          data-back="Learn More"
+                          data-front="Learn More"
                         ></span>
                         <IconArrowUpRight className="ms-2" size={16} />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

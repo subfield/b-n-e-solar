@@ -12,12 +12,12 @@ export const SectionA = () => {
                   <img src={Static.Feature11} alt="Icon" />
                 </div>
                 <h3 className="box-title">
-                  <a href="service-details.html">Energy Solutions</a>
+                  <a href="service-details.html">Smart Solar Systems</a>
                 </h3>
                 <p className="box-text">
                   Solar panels with PV cells convert sunlight directly into
                   electricity. PV panels are often installed on rooftops, in
-                  solar farms.
+                  solar farms
                 </p>
               </div>
             </div>
@@ -27,12 +27,13 @@ export const SectionA = () => {
                   <img src={Static.Feature12} alt="Icon" />
                 </div>
                 <h3 className="box-title">
-                  <a href="service-details.html">Global Expertise</a>
+                  <a href="service-details.html">Off Grid</a>
                 </h3>
                 <p className="box-text">
-                  Global expertise" refers to having a broad, in-depth
-                  understanding, knowledge, and proficiency in a particular
-                  field or subject
+                  Gain energy independence, access to electricity or reduce
+                  diesel generator costs for your home leveraging our complete
+                  off-grid solutions for homes. We design a robust and
+                  reliable power system.
                 </p>
               </div>
             </div>
@@ -42,12 +43,13 @@ export const SectionA = () => {
                   <img src={Static.Feature13} alt="Icon" />
                 </div>
                 <h3 className="box-title">
-                  <a href="service-details.html">Home Appliance</a>
+                  <a href="service-details.html">Grid Tie</a>
                 </h3>
                 <p className="box-text">
-                  A home appliance refers to any electrical or mechanical device
-                  that assists in household tasks making daily life more
-                  convenient
+                  Our project experience ranges from commercial, industrial,
+                  healthcare, education, and government facilities to
+                  utility-grade solar farms in any mix of rooftop, ground mount,
+                  single tracker, or canopy-based installations{" "}
                 </p>
               </div>
             </div>

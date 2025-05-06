@@ -11,12 +11,10 @@ export const SectionC = () => {
                 <img src={Static.CounterCard11} alt="" />
               </div>
               <h3 className="box-number">
-                <span className="counter-number">10,000,000</span>+
+                <span className="counter-number">100</span>%
               </h3>
               <div className="media-body">
-                <p className="box-text mb-n1">
-                  Instances of fault activity captured on LV networks
-                </p>
+                <p className="box-text mb-n1">Project actualization</p>
               </div>
             </div>
             <div className="divider"></div>
@@ -25,11 +23,11 @@ export const SectionC = () => {
                 <img src={Static.CounterCard12} alt="" />
               </div>
               <h3 className="box-number">
-                <span className="counter-number">3,500,000</span>
+                <span className="counter-number">120</span>
               </h3>
               <div className="media-body">
                 <p className="box-text mb-n1">
-                  Train pantographs inspected annually
+                  Research done around the world.
                 </p>
               </div>
             </div>
@@ -39,12 +37,10 @@ export const SectionC = () => {
                 <img src={Static.CounterCard13} alt="" />
               </div>
               <h3 className="box-number">
-                <span className="counter-number">20,000,000</span>+
+                <span className="counter-number">50</span>
               </h3>
               <div className="media-body">
-                <p className="box-text mb-n1">
-                  Hours of LV circuit load profile data captured and analysed
-                </p>
+                <p className="box-text mb-n1">Successful installations done</p>
               </div>
             </div>
             <div className="divider"></div>

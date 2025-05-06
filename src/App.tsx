@@ -2,8 +2,11 @@ import { Suspense, useEffect } from "react";
 import "./assets/css/index.css";
 // import "./App.css";
 import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import BlogPage from "./pages/BlogPage";
 import { ScrollToTop } from "./components/molecules/ScrollToTop";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 const js = [
   { path: "js", file: "vendor/jquery-3.7.1.min.js" },
@@ -30,6 +33,7 @@ interface ScriptItem {
 }
 
 function App() {
+  const location = useLocation();
   const AddScript = (x: string, y: string): void => {
     const scriptId = `[src="/${x}/${y}"]`;
     if (!document.querySelector(`script${scriptId}`)) {
@@ -53,7 +57,7 @@ function App() {
         AddScript(path, file);
       });
     }
-  }, []);
+  }, [location]);
 
   return (
     <>
@@ -70,7 +74,23 @@ function App() {
           path="/about"
           element={
             <Suspense fallback={"Loading..."}>
-              <HomePage />
+              <AboutPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <Suspense fallback={"Loading..."}>
+              <ContactPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/blog"
+          element={
+            <Suspense fallback={"Loading..."}>
+              <BlogPage />
             </Suspense>
           }
         />

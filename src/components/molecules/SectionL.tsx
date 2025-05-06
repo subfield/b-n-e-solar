@@ -28,7 +28,7 @@ export const SectionL = () => {
                         aria-expanded="false"
                         aria-controls="collapse-1"
                       >
-                        What is the experience of your employees?
+                        What does EPC stand for in solar energy?
                       </button>
                     </div>
                     <div
@@ -39,10 +39,10 @@ export const SectionL = () => {
                     >
                       <div className="accordion-body">
                         <p className="faq-text">
-                          Enthusiastically syndicate extensive technology before
-                          granular testing procedures. Rapidiously aggregate
-                          progressive niches through high standards. Globally
-                          deploy user-centric sources.
+                          EPC stands for Engineering, Procurement, and
+                          Construction. It’s a project delivery model that
+                          oversees the solar installation process from design
+                          through to completion.
                         </p>
                       </div>
                     </div>
@@ -57,7 +57,8 @@ export const SectionL = () => {
                         aria-expanded="true"
                         aria-controls="collapse-2"
                       >
-                        What is the experience of your employees?
+                        What are the benefits of using an EPC contractor for a
+                        solar project?
                       </button>
                     </div>
                     <div
@@ -68,10 +69,10 @@ export const SectionL = () => {
                     >
                       <div className="accordion-body">
                         <p className="faq-text">
-                          Enthusiastically syndicate extensive technology before
-                          granular testing procedures. Rapidiously aggregate
-                          progressive niches through high standards. Globally
-                          deploy user-centric sources.
+                          An EPC contractor streamlines the process, offers cost
+                          management, ensures accountability, and provides a
+                          single point of responsibility, making the project
+                          more efficient and cost-effective.
                         </p>
                       </div>
                     </div>
@@ -86,7 +87,7 @@ export const SectionL = () => {
                         aria-expanded="false"
                         aria-controls="collapse-3"
                       >
-                        What is the experience of your employees?
+                        How long does a typical solar EPC project take?
                       </button>
                     </div>
                     <div
@@ -97,10 +98,9 @@ export const SectionL = () => {
                     >
                       <div className="accordion-body">
                         <p className="faq-text">
-                          Enthusiastically syndicate extensive technology before
-                          granular testing procedures. Rapidiously aggregate
-                          progressive niches through high standards. Globally
-                          deploy user-centric sources.
+                          The timeline depends on project size, site conditions,
+                          and permitting, but most large-scale projects take
+                          several months to over a year to complete
                         </p>
                       </div>
                     </div>

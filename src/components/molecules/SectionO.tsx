@@ -22,7 +22,7 @@ export const SectionO = () => {
               <div className="col-lg-6">
                 <div className="appointment-area-wrapper">
                   <form
-                    action="https://html.themeholy.com/solak/demo/mail.php"
+                    action=""
                     method="POST"
                     className="appointment-form input-smoke ajax-contact"
                   >

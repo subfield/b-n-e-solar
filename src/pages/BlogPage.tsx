@@ -1,37 +1,37 @@
 import { Header } from "../components/molecules/Header";
 import { Static } from "../assets/img";
 import { Link } from "react-router-dom";
-
-import { SectionB } from "../components/molecules/SectionB";
-import { SectionK } from "../components/molecules/SectionK";
-import { SectionH } from "../components/molecules/SectionH";
-import { SectionM } from "../components/molecules/SectionM";
 import { Footer } from "../components/molecules/Footer";
 
-const AboutPage = () => {
+const ContactPage = () => {
   return (
     <>
       <Header />
       <div className="breadcumb-wrapper" data-bg-src={Static.BreadcumbBg}>
         <div className="container">
           <div className="breadcumb-content">
-            <h1 className="breadcumb-title">About Us</h1>
+            <h1 className="breadcumb-title">Blog Page</h1>
             <ul className="breadcumb-menu">
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li>About Us</li>
+              <li>Blog</li>
             </ul>
           </div>
         </div>
       </div>
-      <SectionB about={!!1} />
-      <SectionK />
-      <SectionH />
-      <SectionM />
+      <div className="space">
+        <div className="container">
+          <div className="title-area text-center">
+            <h2 className="sec-title">
+              <i>Coming Soon</i>
+            </h2>
+          </div>
+        </div>
+      </div>
       <Footer />
     </>
   );
 };
 
-export default AboutPage;
+export default ContactPage;

@@ -1,124 +1,73 @@
-import { IconClock, IconMapPin, IconMail } from "@tabler/icons-react";
+import { useState } from "react";
+import {
+  IconClock,
+  IconMapPin,
+  IconMail,
+  IconMenuDeep,
+  IconX,
+} from "@tabler/icons-react";
 import { Static } from "../../assets/img";
 import { Facebook, X, LinkedIn, Instagram, YouTube } from "../atoms/socials";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
+  const [open, setOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setOpen(!open);
+  };
   return (
     <>
-      {/* <div className="th-menu-wrapper">
-        <div className="th-menu-area text-center">
-          <button className="th-menu-toggle">
-            <i className="fal fa-times"></i>
-          </button>
-          <div className="mobile-logo">
-            <a href="home-solar-energy_2.html">
-              <img src="assets/img/logo_2.svg" alt="Solak " />
-            </a>
-          </div>
-          <div className="th-mobile-menu">
-            <ul>
-              <li className="menu-item-has-children">
-                <a href="home-solar-energy_2.html">Home</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="home-solar-energy_2.html">Home Solar Energy</a>
-                  </li>
-                  <li>
-                    <a href="home-renewable-energy.html">
-                      Home Renewable Energy
-                    </a>
-                  </li>
-                  <li>
-                    <a href="home-wind-energy.html">Home Wind Energy</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="about.html">About Us</a>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="index.html#">Pages</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="team.html">Team</a>
-                  </li>
-                  <li>
-                    <a href="team-details.html">Team Details</a>
-                  </li>
-                  <li>
-                    <a href="appointment.html">Appointment</a>
-                  </li>
-                  <li>
-                    <a href="pricing.html">Price Table</a>
-                  </li>
-                  <li>
-                    <a href="testimonial.html">Testimonial</a>
-                  </li>
-                  <li>
-                    <a href="faq.html">FAQ</a>
-                  </li>
-                  <li>
-                    <a href="error.html">Error Page</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="index.html#">Service</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="service.html">Services - Style 1</a>
-                  </li>
-                  <li>
-                    <a href="service-2.html">Services - Style 2</a>
-                  </li>
-                  <li>
-                    <a href="service-3.html">Services - Style 3</a>
-                  </li>
-                  <li>
-                    <a href="service-details.html">Service Details</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="index.html#">Project</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="project.html">Project Style 1</a>
-                  </li>
-                  <li>
-                    <a href="project-2.html">Project Style 2</a>
-                  </li>
-                  <li>
-                    <a href="project-3.html">Project Style 3</a>
-                  </li>
-                  <li>
-                    <a href="project-4.html">Project Style 4</a>
-                  </li>
-                  <li>
-                    <a href="project-details.html">Project Details</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="index.html#">Blog</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="blog.html">Blog</a>
-                  </li>
-                  <li>
-                    <a href="blog-details_2.html">Blog Details</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-              </li>
-            </ul>
+      {open ? (
+        <div
+          className={`${
+            open ? "th-menu-wrapper th-body-visible" : "th-menu-wrapper"
+          }`}
+        >
+          <div className="th-menu-area text-center">
+            <button
+              className="th-menu-toggle"
+              style={{ zIndex: 50 }}
+              onClick={() => setOpen(false)}
+            >
+              <i className="">
+                <IconX size={26} />
+              </i>
+            </button>
+            <div className="mobile-logo">
+              <Link to="/">
+                <img
+                  src={Static.Logo}
+                  style={{ width: "75%", height: "50%" }}
+                  alt="Bina & Elina Development Solar"
+                />
+              </Link>
+            </div>
+            <div className="th-mobile-menu">
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about">About Us</Link>
+                </li>
+                <li>
+                  <Link to="/">Services</Link>
+                </li>
+                <li>
+                  <Link to="/">Blog</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div> */}
-      <header className="th-header header-layout1 !m-0 !p-0">
+      ) : (
+        ""
+      )}
+      <header className="th-header header-layout1">
         <div className="header-top">
           <div className="container">
             <div className="row justify-content-center justify-content-md-between align-items-center">
@@ -150,7 +99,9 @@ export const Header = () => {
                         }}
                       >
                         <IconMapPin className="" size={16} />
-                        <span>12 Division Park, SKY 12546. Berlin</span>
+                        <span>
+                          Awani Road By Ibori Golf Club. Asaba, Delta State.
+                        </span>
                       </div>
                     </li>
                     <li>
@@ -198,13 +149,17 @@ export const Header = () => {
               <div className="row align-items-center justify-content-between">
                 <div className="col-auto">
                   <div className="header-logo">
-                    <a href="/">
-                      {/* <img
-                        className="!w-3 !h-3"
+                    <Link to="/">
+                      <img
+                        style={{
+                          paddingTop: "19px",
+                          paddingBottom: "1px",
+                        }}
+                        className=""
                         src={Static.Logo}
                         alt="Bina & Elina Development Solar"
-                      /> */}
-                    </a>
+                      />
+                    </Link>
                   </div>
                 </div>
                 <div className="col-auto me-xl-auto">
@@ -217,24 +172,26 @@ export const Header = () => {
                         <Link to="/about">About Us</Link>
                       </li>
                       <li className="">
-                        <a href="index.html#">Service</a>
+                        <Link to="/">Service</Link>
                       </li>
                       <li className="">
-                        <a href="index.html#">Blog</a>
+                        <Link to="/blog">Blog</Link>
                       </li>
                       <li>
-                        <a href="contact.html">Contact</a>
+                        <Link to="/contact">Contact</Link>
                       </li>
                     </ul>
                   </nav>
-                  {/* <div className="header-button">
+                  <div className="header-button" onClick={toggleMenu}>
                     <button
                       type="button"
                       className="th-menu-toggle d-inline-block d-lg-none"
                     >
-                      <i className="far fa-bars"></i>
+                      <i className="">
+                        <IconMenuDeep size={28} />
+                      </i>
                     </button>
-                  </div> */}
+                  </div>
                 </div>
                 {/* <div className="col-auto d-none d-xl-block">
                   <div className="header-button">

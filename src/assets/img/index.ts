@@ -32,6 +32,7 @@ import SerShape from "./shape/ser-shape.png";
 import Service10 from "./service/service_1_1.jpg";
 import Service12 from "./service/service_1_2.jpg";
 import Service13 from "./service/service_1_3.jpg";
+import Service13a from "./service/service_13.jpg";
 import Service14 from "./service/service_1_4.jpg";
 import Service15 from "./service/service_1_1.jpg";
 import Service16 from "./service/service_1_2.jpg";
@@ -75,18 +76,27 @@ import Brand14 from "./brand/brand_1_4.svg";
 import Brand15 from "./brand/brand_1_5.svg";
 import Brand16 from "./brand/brand_1_6.svg";
 
+import BreadcumbBg from "./bg/breadcumb-bg.jpg";
+
 import Shape2 from "./shape/shape-2.png";
 import HeroShape from "./shape/hero-shape.svg";
 
+import ProjectA from "./project/project_a.jpg";
+import projectB from "./project/projectB.jpg";
+
 export const Static = {
+  ProjectA,
+  projectB,
   Logo,
   HeroImg1,
   HeroImg2,
   HeroBg11,
+  Service13a,
   HeroBg12,
   HeroBg13,
   HeroBg14,
   Overlay,
+  BreadcumbBg,
   DollarIcon,
   Feature11,
   Feature12,

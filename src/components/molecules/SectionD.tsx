@@ -75,19 +75,6 @@ export const SectionD = () => {
                         solar panels are set up efficiently and securely for
                         maximum sunlight exposure.
                       </p>
-                      <a
-                        href="service.html"
-                        className="th-btn border-btn th-icon fw-medium text-uppercase"
-                      >
-                        <span
-                          className="btn-text"
-                          data-back="Vew Details"
-                          data-front="Vew Details"
-                        ></span>
-                        <i>
-                          <IconArrowUpRight className="ms-2" size={16} />
-                        </i>
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -114,19 +101,6 @@ export const SectionD = () => {
                         solutions, providing energy independence and
                         uninterrupted power. Whether.
                       </p>
-                      <a
-                        href="service.html"
-                        className="th-btn border-btn th-icon fw-medium text-uppercase"
-                      >
-                        <span
-                          className="btn-text"
-                          data-back="Vew Details"
-                          data-front="Vew Details"
-                        ></span>
-                        <i>
-                          <IconArrowUpRight className="ms-2" size={16} />
-                        </i>
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -153,19 +127,6 @@ export const SectionD = () => {
                         solar panels are set up efficiently and securely for
                         maximum sunlight exposure.
                       </p>
-                      <a
-                        href="service.html"
-                        className="th-btn border-btn th-icon fw-medium text-uppercase"
-                      >
-                        <span
-                          className="btn-text"
-                          data-back="Vew Details"
-                          data-front="Vew Details"
-                        ></span>
-                        <i>
-                          <IconArrowUpRight className="ms-2" size={16} />
-                        </i>
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -192,19 +153,6 @@ export const SectionD = () => {
                         solutions, providing energy independence and
                         uninterrupted power. Whether.
                       </p>
-                      <a
-                        href="service.html"
-                        className="th-btn border-btn th-icon fw-medium text-uppercase"
-                      >
-                        <span
-                          className="btn-text"
-                          data-back="Vew Details"
-                          data-front="Vew Details"
-                        ></span>
-                        <i>
-                          <IconArrowUpRight className="ms-2" size={16} />
-                        </i>
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -231,19 +179,31 @@ export const SectionD = () => {
                         solar panels are set up efficiently and securely for
                         maximum sunlight exposure.
                       </p>
-                      <a
-                        href="service.html"
-                        className="th-btn border-btn th-icon fw-medium text-uppercase"
-                      >
-                        <span
-                          className="btn-text"
-                          data-back="Vew Details"
-                          data-front="Vew Details"
-                        ></span>
-                        <i>
-                          <IconArrowUpRight className="ms-2" size={16} />
-                        </i>
-                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="swiper-slide">
+                  <div className="service-card">
+                    <div
+                      className="service-overlay"
+                      data-bg-src={Static.ServiceOverlay2}
+                    ></div>
+                    <div className="box-content">
+                      <div className="box-icon">
+                        <img src={Static.ServicesS12} alt="Icon" />
+                      </div>
+                      <div className="box-img" data-mask-src={Static.SerShape}>
+                        <img src={Static.Service13} alt="img" />
+                      </div>
+                      <h3 className="box-title">
+                        <a href="service-details.html">Planning & Purchase</a>
+                      </h3>
+                      <p className="box-text">
+                        With Bina & Elina Development SOLAR SYSTEMS as your
+                        procurement partner, you’ll receive the best value and
+                        quality for your investment. Thus, we provide the basis
+                        for reliable energy production over 20 years and more.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -270,19 +230,6 @@ export const SectionD = () => {
                         solutions, providing energy independence and
                         uninterrupted power. Whether.
                       </p>
-                      <a
-                        href="service.html"
-                        className="th-btn border-btn th-icon fw-medium text-uppercase"
-                      >
-                        <span
-                          className="btn-text"
-                          data-back="Vew Details"
-                          data-front="Vew Details"
-                        ></span>
-                        <i>
-                          <IconArrowUpRight className="ms-2" size={16} />
-                        </i>
-                      </a>
                     </div>
                   </div>
                 </div>

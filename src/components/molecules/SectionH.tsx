@@ -9,7 +9,9 @@ export const SectionH = () => {
             <div className="col-xl-5">
               <div className="pe-xxl-4 me-xl-3">
                 <div className="title-area mb-30">
-                  <span className="sub-title">Why Choose Us</span>
+                  <span className="sub-title">
+                    Why Choose Bina & Elina Development Solar System
+                  </span>
                   <h2 className="sec-title">
                     Our Solar Solutions Reach 100% Renewable
                   </h2>
@@ -43,6 +45,47 @@ export const SectionH = () => {
                       <p className="box-text">
                         Signal Energy Constructors is committed to making safety
                         our primary focus and concern on each project.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="about-feature">
+                    <div className="box-icon">
+                      <img src={Static.Service13} alt="Icon" />
+                    </div>
+                    <div className="media-body">
+                      <h3 className="box-title">Commitment</h3>
+                      <p className="box-text">
+                        Bina & Elina Development SOLAR SYSTEMS believes in
+                        fostering positive relationships with clients and
+                        subcontractors that are built on trust, stewardship,
+                        collaboration and accountability.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="about-feature">
+                    <div className="box-icon">
+                      <img src={Static.Service12} alt="Icon" />
+                    </div>
+                    <div className="media-body">
+                      <h3 className="box-title">Value and Ethics</h3>
+                      <p className="box-text">
+                        From employees to vendors to business partners, Bina &
+                        Elina Development SOLAR SYSTEMS conducts business
+                        fairly, impartially and ethically.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="about-feature">
+                    <div className="box-icon">
+                      <img src={Static.Service10} alt="Icon" />
+                    </div>
+                    <div className="media-body">
+                      <h3 className="box-title">Quality</h3>
+                      <p className="box-text">
+                        Our goal is to be our customers’ preferred supplier into
+                        each successive project. To reach our goal we must
+                        deliver an excellent quality product, on time, every
+                        time. Bina & Elina Development SOLAR SYSTEMS.
                       </p>
                     </div>
                   </div>

@@ -1,5 +1,6 @@
 import { IconCopyright, IconMapPin, IconPhone } from "@tabler/icons-react";
 import { Facebook, X, LinkedIn, WhatsApp } from "../atoms/socials";
+import { Static } from "../../assets/img";
 
 export const Footer = () => {
   return (
@@ -17,8 +18,8 @@ export const Footer = () => {
                     <div className="about-logo">
                       <a className="" href="index.html">
                         <img
-                          src="https://html.themeholy.com/solak/demo/assets/img/logo_2.svg"
-                          alt="Solak "
+                          src={Static.Logo}
+                          alt="Bina & Elina Development Solar"
                         />
                       </a>
                     </div>
@@ -102,8 +103,8 @@ export const Footer = () => {
                       <i>
                         <IconMapPin size={16} />
                       </i>
-                      Awani Road, <br /> By Ibori Golf Club, <br /> Asaba Delta
-                      State
+                      Awani Road, <br /> By Ibori Golf Club, <br /> Asaba, Delta
+                      State.
                     </p>
                     <h4 className="footer-info-title">Phone Number</h4>
                     <p className="footer-info">
@@ -139,9 +140,11 @@ export const Footer = () => {
         </div>
         <div className="copyright-wrap text-center">
           <p className="copyright-text">
-            Copyright <i><IconCopyright /></i> 2025{" "}
-            <a href="https://themeforest.net/user/themeholy">Solak </a>. All
-            Rights Reserved.
+            Copyright{" "}
+            <i>
+              <IconCopyright />
+            </i>{" "}
+            2025 <a href="#">BINA AND ELINA SOLAR EPC </a>. All Rights Reserved.
           </p>
         </div>
       </footer>

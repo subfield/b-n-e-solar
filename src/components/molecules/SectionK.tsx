@@ -10,7 +10,7 @@ export const SectionK = () => {
               <div className="title-area text-center pe-xl-5 ps-xl-5">
                 <span className="sub-title">Our Working Process</span>
                 <h2 className="sec-title">
-                  How We Work Process In Solar Energy
+                  Work process in Solar Energy
                 </h2>
               </div>
             </div>
@@ -20,10 +20,7 @@ export const SectionK = () => {
               <div className="process-card">
                 <div className="process-image">
                   <div className="box-img global-img">
-                    <img
-                      src={Static.Process11}
-                      alt="Process"
-                    />
+                    <img src={Static.Process11} alt="Process" />
                   </div>
                   <span className="number">01</span>
                 </div>
@@ -38,10 +35,7 @@ export const SectionK = () => {
               <div className="process-card">
                 <div className="process-image">
                   <div className="box-img global-img">
-                    <img
-                      src={Static.Process12}
-                      alt="Process"
-                    />
+                    <img src={Static.Process12} alt="Process" />
                   </div>
                   <span className="number">02</span>
                 </div>
@@ -56,10 +50,7 @@ export const SectionK = () => {
               <div className="process-card">
                 <div className="process-image">
                   <div className="box-img global-img">
-                    <img
-                      src={Static.Process13}
-                      alt="Process"
-                    />
+                    <img src={Static.Process13} alt="Process" />
                   </div>
                   <span className="number">03</span>
                 </div>
@@ -74,10 +65,7 @@ export const SectionK = () => {
               <div className="process-card">
                 <div className="process-image">
                   <div className="box-img global-img">
-                    <img
-                      src={Static.Process14}
-                      alt="Process"
-                    />
+                    <img src={Static.Process14} alt="Process" />
                   </div>
                   <span className="number">04</span>
                 </div>
