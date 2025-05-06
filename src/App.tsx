@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
+import ServicePage from "./pages/ServicePage";
 import { ScrollToTop } from "./components/molecules/ScrollToTop";
 import { Route, Routes, useLocation } from "react-router-dom";
 
@@ -91,6 +92,14 @@ function App() {
           element={
             <Suspense fallback={"Loading..."}>
               <BlogPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/service"
+          element={
+            <Suspense fallback={"Loading..."}>
+              <ServicePage />
             </Suspense>
           }
         />

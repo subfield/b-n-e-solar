@@ -85,7 +85,7 @@ export const Header = () => {
                       >
                         <IconClock className="pr-3" size={16} />
                         <span>
-                          Mon - Fri 8:00 - 18:00 / Sunday 8:00 - 14:00
+                          Mon - Fri 8:00 - 18:00
                         </span>
                       </div>
                     </li>
@@ -114,7 +114,7 @@ export const Header = () => {
                         }}
                       >
                         <IconMail className="" size={16} />
-                        <a href="mailto:help@solak.com">help@solak.com</a>
+                        <a href="mailto:binasolar-epc@binaelina-solar-epc.com">binasolar-epc@binaelina-solar-epc.com</a>
                       </div>
                     </li>
                   </ul>
@@ -172,7 +172,7 @@ export const Header = () => {
                         <Link to="/about">About Us</Link>
                       </li>
                       <li className="">
-                        <Link to="/">Service</Link>
+                        <Link to="/service">Service</Link>
                       </li>
                       <li className="">
                         <Link to="/blog">Blog</Link>

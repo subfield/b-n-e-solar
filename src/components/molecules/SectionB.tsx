@@ -33,7 +33,7 @@ export const SectionB = ({ about }: { about: boolean }) => {
                     </span>
                     <div className="discount-tag">
                       <span className="discount-anime">
-                        Bina & Elina Development Ltd
+                        BINA AND ELINA SOLAR EPC
                       </span>
                     </div>
                   </div>
@@ -42,54 +42,65 @@ export const SectionB = ({ about }: { about: boolean }) => {
             </div>
             <div className="col-xl-5">
               <div className="ps-xxl-5 ms-xxl-5 me-xl-2">
-                <p className="mb-20">
-                  Bina & Elina Development SOLAR SYSTEMS combines the best from
-                  grid-tied and off-grid solar systems. These systems can either
-                  be described as off-grid solar with utility backup power, or
-                  grid-tied solar with extra battery storage
-                </p>
-                <p className="mb-25">
-                  Bina & Elina Development SOLAR SYSTEMS {">"} Service {">"}{" "}
-                  URBAN & RURAL ELECTRIFICATION SOLAR ELECTRIFICATION FOR RURAL
-                  COMMUNITIES
-                </p>
                 {about ? (
                   <>
-                    TODAY, 1.4 BILLION PEOPLE IN THE WORLD DO NOT HAVE ACCESS TO
-                    ENERGY. In Africa, only 8% of the population in rural areas
-                    has access to mains electricity but mini-grids – localized
-                    generation, transmission and distribution of power – could
-                    change all that. These populations suffer from poor health,
-                    social and economic development conditions whilst paying a
-                    large part of their revenue for a harmful and polluting
-                    energy. As the international expert in solar energy, Bina &
-                    Elina Development SOLAR SYSTEMS provides most reliable,
-                    affordable and clean energy for your community. In countries
-                    where the energy infrastructure is under-developed and few
-                    towns are adequately electrified, extending the grid is
-                    often not financially viable, and certainly not likely to
-                    happen in the short to medium term. As the cost of solar
-                    energy in rural Africa, and other countries in Asia has
-                    fallen dramatically in recent years, setting up a mini-grid
-                    powered by renewable energy has become the cheapest way to
-                    provide electricity. Bina & Elina Development SOLAR SYSTEMS
-                    we specialize in providing complete off-grid electrification
-                    (with optional back-up) to rural and undeveloped communities
-                    in African and other Asian countries. Our off-grid solar
-                    electrification projects provide an effective and renewable
-                    energy source that meets the highest safety and design
-                    specifications. We focus heavily on the sustainability of
-                    our solar electrification systems – working together with
-                    universities, NGOs, local government and, more especially,
-                    involving the local communities and their leadership. It is
-                    part of our vision to train and equip unskilled labour to
-                    increase manufacture of our DC Micro-Grids in all rural and
-                    disadvantaged areas throughout Africa and Asia, creating
-                    sustainable employment and social development for as long as
-                    the sun continues to shine.
+                    <p className="mb-20">
+                      At Bina & Elina Development SOLAR SYSTEMS is a premier
+                      energy services contractor specializing in innovative,
+                      cost-effective solutions with an unwavering commitment to
+                      safety and quality while striving to remain within
+                      budgetary limits. Opting for a partnership with At Bina &
+                      Elina Development SOLAR SYSTEMS opens the door to a
+                      cohesive team dedicated to realizing your project’s
+                      objectives. Our comprehensive suite of services spans
+                      diverse areas, encompassing substation design and
+                      construction, meticulous medium and low voltage splicing
+                      and testing, intricate collection system work, seamless
+                      switching solutions, seamless battery storage
+                      installations, and an extensive array of intermediate
+                      tasks. Our journey has been intertwined with the evolution
+                      of the renewable energy landscape, equipping us with
+                      unparalleled expertise in renewable technologies. The
+                      breadth of our adaptable project history attests to the
+                      fact that, regardless of the project’s context, At Bina &
+                      Elina Development SOLAR SYSTEMS proficient specialists
+                      possess the acumen to steer you toward fulfilling your
+                      energy aspirations. For a deeper insight into optimizing
+                      your energy project, do not hesitate to reach out to us;
+                      we are here to guide you every step of the way.
+                      CAPABILITIES INCLUDE: Instillation solar EV Charging
+                      System MV LV Splicing & Testing Collection System Work
+                      Battery Storage Substation Design and Buildout Solar
+                      Installation & Testing AC/DC OEM Trained Technicians
+                      Design Modification
+                    </p>
+                    <p className="mb-25">
+                      Expertise We love what we do. At Bina & Elina Development
+                      SOLAR SYSTEMS our involvement in the development, design
+                      and installation of renewable energy projects is not just
+                      a job, it’s our life’s work. We do this because we are
+                      passionate about our future and the future of generations
+                      to come. Bina & Elina Development SOLAR SYSTEMS fully
+                      committed to a safe and sustainable environment and our
+                      focus on sustainable, cost effective renewable energy
+                      projects is reflected in everything we do.
+                    </p>
                   </>
                 ) : (
-                  ""
+                  <>
+                    <p className="mb-20">
+                      Bina & Elina Development SOLAR SYSTEMS combines the best
+                      from grid-tied and off-grid solar systems. These systems
+                      can either be described as off-grid solar with utility
+                      backup power, or grid-tied solar with extra battery
+                      storage
+                    </p>
+                    <p className="mb-25">
+                      Bina & Elina Development SOLAR SYSTEMS {">"} Service {">"}{" "}
+                      URBAN & RURAL ELECTRIFICATION SOLAR ELECTRIFICATION FOR
+                      RURAL COMMUNITIES
+                    </p>
+                  </>
                 )}
                 <div className="checklist list-two-column mb-20">
                   <ul>

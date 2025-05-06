@@ -1,7 +1,6 @@
 import { Header } from "../components/molecules/Header";
 import { Static } from "../assets/img";
 import { Link } from "react-router-dom";
-import { SectionM } from "../components/molecules/SectionM";
 import { SectionO } from "../components/molecules/SectionO";
 import { IconPhone, IconClock, IconMapPin } from "@tabler/icons-react";
 import { Footer } from "../components/molecules/Footer";
@@ -55,7 +54,9 @@ const ContactPage = () => {
                   <h5 className="box-title">Contact Number</h5>
                   <p className="box-text">
                     <a href="tel:+2347067274013">Mobile: +2347067274013</a>{" "}
-                    <a href="mailto:help@solak.com">Email: help@solak.com</a>
+                    <a href="mailto:binasolar-epc@binaelina-solar-epc.com">
+                      Email: binasolar-epc@binaelina-solar-epc.com
+                    </a>
                   </p>
                 </div>
               </div>
@@ -79,7 +80,6 @@ const ContactPage = () => {
         </div>
       </div>
       <SectionO />
-      <SectionM />
       <Footer />
     </>
   );

@@ -12,10 +12,8 @@ export const SectionJ = () => {
           <div className="row justify-content-lg-between justify-content-center align-items-center">
             <div className="col-lg-4">
               <div className="title-area text-center text-lg-start">
-                <span className="sub-title">Case Study</span>
-                <h2 className="sec-title text-white">
-                  Our Latest Case Studies
-                </h2>
+                <span className="sub-title">Our Services</span>
+                <h2 className="sec-title text-white">What we offer</h2>
                 <p className="text-light">
                   We offer customized solar systems for homes of all sizes,
                   helping households reduce electricity bills.

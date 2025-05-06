@@ -45,12 +45,11 @@ export const SectionM = () => {
                       </span>
                     </div>
                     <h3 className="box-title2">
-                      Efficient and Professional Team!
+                      Reliable Solar Installation from Bina and Elina!
                     </h3>
                     <p className="box-text">
-                      “I was very impressed with the solar panel installation
-                      process. The team was efficient, professional, and always
-                      kept me informed.”
+                      “The team arrived on time and got everything set up in a
+                      day. We've had steady power ever since.”
                     </p>
                     <div className="box-wrapp">
                       <div className="box-profile">
@@ -58,8 +57,8 @@ export const SectionM = () => {
                           <img src={Static.Testi11} alt="Avater" />
                         </div>
                         <div className="box-info">
-                          <h3 className="box-title">Sarah Johnson</h3>
-                          <span className="box-desig">Customer</span>
+                          <h3 className="box-title">Chinaza Okafor</h3>
+                          <span className="box-desig">Homeowner, Enugu</span>
                         </div>
                       </div>
                     </div>
@@ -87,12 +86,11 @@ export const SectionM = () => {
                       </span>
                     </div>
                     <h3 className="box-title2">
-                      Smooth and Hassle-Free Process!
+                      Efficient and Professional Service
                     </h3>
                     <p className="box-text">
-                      “The solar panel installation process was smooth and
-                      hassle-free. The team was very professional and took care
-                      of everything,”
+                      “Bina and Elina was transparent with pricing and did a
+                      clean job. My generator is now a backup!”
                     </p>
                     <div className="box-wrapp">
                       <div className="box-profile">
@@ -100,8 +98,8 @@ export const SectionM = () => {
                           <img src={Static.Testi12} alt="Avater" />
                         </div>
                         <div className="box-info">
-                          <h3 className="box-title">Richard Wilson</h3>
-                          <span className="box-desig">Customer</span>
+                          <h3 className="box-title">Amina Bello</h3>
+                          <span className="box-desig">Customer, Lagos</span>
                         </div>
                       </div>
                     </div>
@@ -128,13 +126,10 @@ export const SectionM = () => {
                         </i>
                       </span>
                     </div>
-                    <h3 className="box-title2">
-                      Excellent Customer Service from Mentari!
-                    </h3>
+                    <h3 className="box-title2">Great Support and Follow-up</h3>
                     <p className="box-text">
-                      “The customer service I received from the solar panel
-                      company exceptional. They were always available to answer
-                      my questions
+                      “After installation, they still check in to make sure
+                      everything works perfectly. That’s rare here.“
                     </p>
                     <div className="box-wrapp">
                       <div className="box-profile">
@@ -142,8 +137,8 @@ export const SectionM = () => {
                           <img src={Static.Testi13} alt="Avater" />
                         </div>
                         <div className="box-info">
-                          <h3 className="box-title">David Brown</h3>
-                          <span className="box-desig">Customer</span>
+                          <h3 className="box-title">Emeka Umeh </h3>
+                          <span className="box-desig">SME Owner, Abuja</span>
                         </div>
                       </div>
                     </div>
@@ -174,9 +169,8 @@ export const SectionM = () => {
                       Eco-friendly and Convenient Product!
                     </h3>
                     <p className="box-text">
-                      “I wanted to switch to solar panels because I wanted to be
-                      more eco-friendly and save money on my energy bills. This
-                      company ”
+                      “The switch to solar with Bina and Elina was one of my
+                      best decisions. No regrets.”
                     </p>
                     <div className="box-wrapp">
                       <div className="box-profile">
@@ -184,8 +178,8 @@ export const SectionM = () => {
                           <img src={Static.Testi14} alt="Avater" />
                         </div>
                         <div className="box-info">
-                          <h3 className="box-title">Emily Davis</h3>
-                          <span className="box-desig">Customer</span>
+                          <h3 className="box-title">Zainab Yusuf</h3>
+                          <span className="box-desig">Customer, Oyo</span>
                         </div>
                       </div>
                     </div>
@@ -212,13 +206,10 @@ export const SectionM = () => {
                         </i>
                       </span>
                     </div>
-                    <h3 className="box-title2">
-                      Efficient and Professional Team!
-                    </h3>
+                    <h3 className="box-title2">Affordable and Clean Energy!</h3>
                     <p className="box-text">
-                      “I was very impressed with the solar panel installation
-                      process. The team was efficient, professional, and always
-                      kept me informed .”
+                      “I didn’t think solar could work this well in Nigeria.
+                      Billing dropped and my home stays lit.”
                     </p>
                     <div className="box-wrapp">
                       <div className="box-profile">
@@ -226,14 +217,14 @@ export const SectionM = () => {
                           <img src={Static.Testi15} alt="Avater" />
                         </div>
                         <div className="box-info">
-                          <h3 className="box-title">Amelia Margaret</h3>
-                          <span className="box-desig">Customer</span>
+                          <h3 className="box-title">Oghenetega Miracle</h3>
+                          <span className="box-desig">Customer, Delta</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="swiper-slide">
+                {/* <div className="swiper-slide">
                   <div className="testi-card">
                     <div className="box-review">
                       <i className="fa-sharp">
@@ -526,7 +517,7 @@ export const SectionM = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="slider-pagination"></div>
             </div>

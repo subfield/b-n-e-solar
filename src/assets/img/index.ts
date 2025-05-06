@@ -37,6 +37,11 @@ import Service14 from "./service/service_1_4.jpg";
 import Service15 from "./service/service_1_1.jpg";
 import Service16 from "./service/service_1_2.jpg";
 
+import Service21 from "./service/service_2_1.jpg";
+import Service22 from "./service/service_2_2.jpg";
+// import Service21 from "./service/service_2_1.jpg"
+// import Service22 from "./service/service_2_2.jpg"
+
 import ServicesS12 from "./icon/service_1_2.svg";
 import ServicesS13 from "./icon/service_1_3.svg";
 import ServicesS14 from "./icon/service_1_4.svg";
@@ -57,11 +62,11 @@ import Process13 from "./process/process_1_3.jpg";
 import Process14 from "./process/process_1_4.jpg";
 
 import FaqImage from "./normal/faq-image.jpg";
-import Testi11 from "./testimonial/testi_1_1.jpg";
-import Testi12 from "./testimonial/testi_1_2.jpg";
-import Testi13 from "./testimonial/testi_1_3.jpg";
-import Testi14 from "./testimonial/testi_1_4.jpg";
-import Testi15 from "./testimonial/testi_1_5.jpg";
+import Testi11 from "./testimonial/testi_1_1.png";
+import Testi12 from "./testimonial/testi_1_2.png";
+import Testi13 from "./testimonial/testi_1_3.png";
+import Testi14 from "./testimonial/testi_1_4.png";
+import Testi15 from "./testimonial/testi_1_5.png";
 import Testi16 from "./testimonial/testi_1_6.jpg";
 import Testi17 from "./testimonial/testi_1_7.jpg";
 import Testi18 from "./testimonial/testi_1_8.jpg";
@@ -86,6 +91,8 @@ import projectB from "./project/projectB.jpg";
 
 export const Static = {
   ProjectA,
+  Service21,
+  Service22,
   projectB,
   Logo,
   HeroImg1,
