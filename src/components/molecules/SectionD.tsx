@@ -1,8 +1,4 @@
-import {
-  IconArrowUpRight,
-  IconChevronRight,
-  IconChevronLeft,
-} from "@tabler/icons-react";
+import { IconChevronRight, IconChevronLeft } from "@tabler/icons-react";
 import { Static } from "../../assets/img";
 
 export const SectionD = () => {
