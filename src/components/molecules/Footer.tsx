@@ -1,6 +1,7 @@
 import { IconCopyright, IconMapPin, IconPhone } from "@tabler/icons-react";
 import { Facebook, X, LinkedIn, WhatsApp } from "../atoms/socials";
 import { Static } from "../../assets/img";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -52,19 +53,19 @@ export const Footer = () => {
                   <div className="menu-all-pages-container">
                     <ul className="menu">
                       <li>
-                        <a href="about.html">About Us</a>
+                        <Link to="/about">About Us</Link>
                       </li>
                       <li>
-                        <a href="service.html">Services</a>
+                        <Link to="/service">Services</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="project.html">projects</a>
+                      </li> */}
+                      <li>
+                        <Link to="/blog">Blog</Link>
                       </li>
                       <li>
-                        <a href="blog.html">Blog</a>
-                      </li>
-                      <li>
-                        <a href="contact.html">Contact Us</a>
+                        <Link to="/contact">Contact Us</Link>
                       </li>
                     </ul>
                   </div>
@@ -76,19 +77,19 @@ export const Footer = () => {
                   <div className="menu-all-pages-container">
                     <ul className="menu">
                       <li>
-                        <a href="service.html">Renewable Energy</a>
+                        <a href="#">Renewable Energy</a>
                       </li>
                       <li>
-                        <a href="service.html">Wind Generator</a>
+                        <a href="#">Wind Generator</a>
                       </li>
                       <li>
-                        <a href="service.html">Solar Energy</a>
+                        <a href="#">Solar Energy</a>
                       </li>
                       <li>
-                        <a href="service.html">Hydropower Energy</a>
+                        <a href="#">Hydropower Energy</a>
                       </li>
                       <li>
-                        <a href="service.html">Eco Maintenance</a>
+                        <a href="#">Eco Maintenance</a>
                       </li>
                     </ul>
                   </div>

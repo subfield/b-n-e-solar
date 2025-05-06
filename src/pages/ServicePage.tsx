@@ -216,43 +216,44 @@ const ContactPage = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-lg-6 col-xxl-4">
+            <div className="col-lg-6 col-xxl-4">
               <div className="service-grid style2">
                 <div className="service-grid_content">
                   <h3 className="box-title">
-                    <a href="#">1. Solar System Design and Engineering</a>
+                    <a href="#">5. Off-Grid and Hybrid Solar Solutions</a>
                   </h3>
                   <p className="box-text">
-                    The quality of installation plays a crucial role in the
-                    performance and longevity of a solar system. Our experienced
-                    installation team ensures every project is executed to the
-                    highest standards.
+                    For areas without access to the national grid or those
+                    seeking a combination of solar and conventional energy, our
+                    off-grid and hybrid solutions provide reliable and
+                    sustainable power.
                   </p>
                   <div>
                     <p className="mb-1">
-                      <strong>Premium Equipment:</strong> We install only
-                      certified, high-performance solar panels and components
-                      from trusted manufacturers.
+                      <strong>Off-Grid Systems:</strong> Completely independent
+                      solar setups designed for remote areas with no grid
+                      access.
                     </p>
                     <p className="mb-1">
-                      <strong>Efficient Installation Process:</strong> Our
-                      skilled technicians complete installations quickly and
-                      effectively, minimizing disruption to your routine.
+                      <strong>Hybrid Systems:</strong> A seamless integration of
+                      solar power with grid electricity or generator systems.
                     </p>
                     <p className="mb-1">
-                      <strong>Safety Standards:</strong> We adhere to all safety
-                      and industry guidelines to ensure long-lasting, secure
-                      installations.
+                      <strong>Energy Independence:</strong> Reduce or eliminate
+                      reliance on inconsistent power sources.
                     </p>
                     <p className="mb-1">
-                      <strong>Turnkey Solutions:</strong> From procurement to
-                      activation, we handle every step of the process for a
-                      hassle-free experience.
+                      <strong>Flexible and Scalable:</strong> Systems that adapt
+                      to your changing energy needs over time.
                     </p>
                   </div>
                 </div>
                 <div className="box-img th-anim">
-                  <img src="assets/img/service/service_2_3.jpg" alt="Icon" />
+                  <img
+                    src={Static.Service21}
+                    style={{ height: "50%", alignItems: "right" }}
+                    alt="Icon"
+                  />
                 </div>
               </div>
             </div>
@@ -260,15 +261,37 @@ const ContactPage = () => {
               <div className="service-grid style2">
                 <div className="service-grid_content">
                   <h3 className="box-title">
-                    <a href="#">Solar Panel Energy Installation</a>
+                    <a href="#">6. Solar Water Heating Systems</a>
                   </h3>
                   <p className="box-text">
-                    Comprehensive wind turbine installation services, including
-                    site preparation, turbine assembly,
+                    Solar water heating is an efficient and eco-friendly way to
+                    meet your water heating needs.
                   </p>
+                  <div>
+                    <p className="mb-1">
+                      <strong>Custom Installation:</strong> Systems tailored to
+                      residential, commercial, or industrial applications.
+                    </p>
+                    <p className="mb-1">
+                      <strong>Energy Savings:</strong> Reduce energy costs while
+                      maintaining a reliable hot water supply
+                    </p>
+                    <p className="mb-1">
+                      <strong>Durability:</strong> High-quality systems designed
+                      to withstand the Nigerian climate.
+                    </p>
+                    <p className="mb-1">
+                      <strong>Eco-Friendly Technology:</strong> Reduce your
+                      carbon footprint by using renewable energy.
+                    </p>
+                  </div>
                 </div>
                 <div className="box-img th-anim">
-                  <img src="assets/img/service/service_2_4.jpg" alt="Icon" />
+                  <img
+                    src={Static.Service22}
+                    style={{ height: "50%", alignItems: "right" }}
+                    alt="Icon"
+                  />
                 </div>
               </div>
             </div>
@@ -276,15 +299,40 @@ const ContactPage = () => {
               <div className="service-grid style2">
                 <div className="service-grid_content">
                   <h3 className="box-title">
-                    <a href="#">Hydro power Energy</a>
+                    <a href="#">7. Energy Consulting and Project Development</a>
                   </h3>
                   <p className="box-text">
-                    Pair wind turbines with battery storage systems to store
-                    excess energy for use the our during periods.
+                    Our consulting services help clients make informed decisions
+                    about their solar energy projects.
                   </p>
+                  <div>
+                    <p className="mb-1">
+                      <strong>Feasibility Studies:</strong> Detailed analysis to
+                      evaluate the technical and financial viability of solar
+                      projects.
+                    </p>
+                    <p className="mb-1">
+                      <strong>Project Planning and Management:</strong> From
+                      initial concept to final implementation, we oversee every
+                      aspect of your project.
+                    </p>
+                    <p className="mb-1">
+                      <strong>Regulatory Support:</strong> Assistance with
+                      permits, compliance, and accessing government incentives
+                      or subsidies.
+                    </p>
+                    <p className="mb-1">
+                      <strong>Customized Energy Strategies:</strong> Solutions
+                      designed to align with your energy goals and budget.
+                    </p>
+                  </div>
                 </div>
                 <div className="box-img th-anim">
-                  <img src="assets/img/service/service_2_5.jpg" alt="Icon" />
+                  <img
+                    src={Static.Service21}
+                    style={{ height: "50%", alignItems: "right" }}
+                    alt="Icon"
+                  />
                 </div>
               </div>
             </div>
@@ -292,18 +340,94 @@ const ContactPage = () => {
               <div className="service-grid style2">
                 <div className="service-grid_content">
                   <h3 className="box-title">
-                    <a href="#">Grid Connection & Integration</a>
+                    <a href="#">8. Corporate and Community Solar Projects</a>
                   </h3>
                   <p className="box-text">
-                    Combine wind energy with other renewable sources like solar
-                    or hydropower for a balanced,
+                    For businesses and communities, we offer large-scale solar
+                    energy solutions that deliver shared benefits and
+                    significant cost savings.
                   </p>
+                  <div>
+                    <p className="mb-1">
+                      <strong>Solar Farms:</strong> Development and management
+                      of solar farms for large-scale energy generation.
+                    </p>
+                    <p className="mb-1">
+                      <strong>Community Solar Projects:</strong> Shared solar
+                      solutions that benefit multiple households or businesses
+                      within a community.
+                    </p>
+                    <p className="mb-1">
+                      <strong>Corporate Solar Installations:</strong> Custom
+                      systems designed to meet the energy needs of corporate
+                      clients.
+                    </p>
+                    <p className="mb-1">
+                      <strong>Sustainability Initiatives:</strong> Support for
+                      organizations seeking to reduce their carbon footprint and
+                      align with global environmental goals.
+                    </p>
+                  </div>
                 </div>
                 <div className="box-img th-anim">
-                  <img src="assets/img/service/service_2_6.jpg" alt="Icon" />
+                  <img
+                    src={Static.Service22}
+                    style={{ height: "50%", alignItems: "right" }}
+                    alt="Icon"
+                  />
                 </div>
               </div>
-            </div> */}
+            </div>
+          </div>
+          <div className="row gx-4 mt-5 pt-20 pe-xl-3">
+            <div className="col-xl-6 mb-xl-0">
+              <h4 className="border-title h3">
+                Why Work with Bina and Elian Solar EPC?
+              </h4>
+
+              <p className="mb-2">
+                <strong>Experienced Professionals:</strong> Our team brings
+                decades of combined expertise in solar energy design,
+                installation, and maintenance.
+              </p>
+              <p className="mb-2">
+                <strong>Proven Track Record:</strong> A history of successful
+                projects across Nigeria, from small homes to large businesses.
+              </p>
+              <p className="mb-2">
+                <strong>Top-Quality Components:</strong> We partner with
+                industry-leading manufacturers to provide reliable, long-lasting
+                systems.
+              </p>
+              <p className="mb-2">
+                <strong>Personalized Solutions:</strong> Each project is
+                tailored to meet the unique needs of our clients.
+              </p>
+              <p className="mb-2">
+                <strong>Commitment to Sustainability:</strong> We are passionate
+                about creating a cleaner, greener Nigeria through renewable
+                energy.
+              </p>
+            </div>
+            <div className="col-xl-6 mt-5 mt-xl-0">
+              <div className="skill-card ps-xl-2">
+                <h5 className="border-title h3">
+                  Let’s Power Your Future Together
+                </h5>
+                <p className="mb-40">
+                  Bina and Elian Solar EPC is here to provide you with
+                  innovative and sustainable energy solutions. Whether you need
+                  a small solar system for your home, a hybrid solution for your
+                  business, or a large-scale solar project for your community,
+                  we have the expertise and resources to make it happen.
+                </p>
+                <p className="mb-40">
+                  Contact us today to discuss your solar energy needs and
+                  discover how we can help you achieve energy independence, save
+                  money, and contribute to a greener Nigeria.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

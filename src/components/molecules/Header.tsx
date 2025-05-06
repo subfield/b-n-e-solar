@@ -52,10 +52,10 @@ export const Header = () => {
                   <Link to="/about">About Us</Link>
                 </li>
                 <li>
-                  <Link to="/">Services</Link>
+                  <Link to="/service">Services</Link>
                 </li>
                 <li>
-                  <Link to="/">Blog</Link>
+                  <Link to="/blog">Blog</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact</Link>
@@ -84,9 +84,7 @@ export const Header = () => {
                         }}
                       >
                         <IconClock className="pr-3" size={16} />
-                        <span>
-                          Mon - Fri 8:00 - 18:00
-                        </span>
+                        <span>Mon - Fri 8:00 - 18:00</span>
                       </div>
                     </li>
                     <li className="">
@@ -114,7 +112,9 @@ export const Header = () => {
                         }}
                       >
                         <IconMail className="" size={16} />
-                        <a href="mailto:binasolar-epc@binaelina-solar-epc.com">binasolar-epc@binaelina-solar-epc.com</a>
+                        <a href="mailto:binasolar-epc@binaelina-solar-epc.com">
+                          binasolar-epc@binaelina-solar-epc.com
+                        </a>
                       </div>
                     </li>
                   </ul>
