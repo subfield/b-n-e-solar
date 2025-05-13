@@ -15,7 +15,8 @@ import Feature11 from "./icon/feature_1_1.svg";
 import Feature12 from "./icon/feature_1_2.svg";
 import Feature13 from "./icon/feature_1_3.svg";
 import Feature14 from "./icon/feature_1_4.svg";
-import Service11 from "./icon/service_1_1.svg";
+import ServiceS11 from "./icon/service_1_1.svg";
+import Service11 from "./service/service_1_1.jpg";
 import About11 from "./normal/about_1_1.jpg";
 import About12 from "./normal/about_1_2.jpg";
 import Signature from "./normal/signature.svg";
@@ -27,14 +28,14 @@ import ServiceOverlay1 from "./service/service_overlay_1.jpg";
 import ServiceOverlay2 from "./service/service_overlay_2.jpg";
 import ServiceOverlay3 from "./service/service_overlay_3.jpg";
 import ServiceOverlay4 from "./service/service_overlay_4.jpg";
+import ServiceOverlay5 from "./service/service_overlay_5.jpg";
 
 import SerShape from "./shape/ser-shape.png";
 import Service10 from "./service/service_1_1.jpg";
 import Service12 from "./service/service_1_2.jpg";
 import Service13 from "./service/service_1_3.jpg";
-import Service13a from "./service/service_13.jpg";
 import Service14 from "./service/service_1_4.jpg";
-import Service15 from "./service/service_1_1.jpg";
+import Service15 from "./service/service_1_5.jpg";
 import Service16 from "./service/service_1_2.jpg";
 
 import Service21 from "./service/service_2_1.jpg";
@@ -91,7 +92,6 @@ export const Static = {
   HeroImg1,
   HeroImg2,
   HeroBg11,
-  Service13a,
   HeroBg12,
   HeroBg13,
   HeroBg14,
@@ -112,7 +112,9 @@ export const Static = {
   ServiceOverlay2,
   ServiceOverlay3,
   ServiceOverlay4,
+  ServiceOverlay5,
   Service11,
+  ServiceS11,
   SerShape,
   Service10,
   Service12,

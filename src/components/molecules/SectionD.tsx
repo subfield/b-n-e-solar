@@ -52,32 +52,6 @@ export const SectionD = () => {
                   <div className="service-card">
                     <div
                       className="service-overlay"
-                      data-bg-src={Static.ServiceOverlay1}
-                    ></div>
-                    <div className="box-content">
-                      <div className="box-icon">
-                        <img src={Static.Service11} alt="Icon" />
-                      </div>
-                      <div className="box-img" data-mask-src={Static.SerShape}>
-                        <img src={Static.Service10} alt="img" />
-                      </div>
-                      <h3 className="box-title">
-                        <a href="service-details.html">
-                          Solar Panel Installation
-                        </a>
-                      </h3>
-                      <p className="box-text">
-                        Our professional installation service ensures that your
-                        solar panels are set up efficiently and securely for
-                        maximum sunlight exposure.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="service-card">
-                    <div
-                      className="service-overlay"
                       data-bg-src={Static.ServiceOverlay2}
                     ></div>
                     <div className="box-content">
@@ -160,7 +134,7 @@ export const SectionD = () => {
                     ></div>
                     <div className="box-content">
                       <div className="box-icon">
-                        <img src={Static.Service11} alt="Icon" />
+                        <img src={Static.ServiceS11} alt="Icon" />
                       </div>
                       <div className="box-img" data-mask-src={Static.SerShape}>
                         <img src={Static.Service11} alt="img" />
@@ -182,14 +156,14 @@ export const SectionD = () => {
                   <div className="service-card">
                     <div
                       className="service-overlay"
-                      data-bg-src={Static.ServiceOverlay2}
+                      data-bg-src={Static.ServiceOverlay5}
                     ></div>
                     <div className="box-content">
                       <div className="box-icon">
                         <img src={Static.ServicesS12} alt="Icon" />
                       </div>
                       <div className="box-img" data-mask-src={Static.SerShape}>
-                        <img src={Static.Service13} alt="img" />
+                        <img src={Static.Service15} alt="img" />
                       </div>
                       <h3 className="box-title">
                         <a href="service-details.html">Planning & Purchase</a>
@@ -203,7 +177,7 @@ export const SectionD = () => {
                     </div>
                   </div>
                 </div>
-                <div className="swiper-slide">
+                {/* <div className="swiper-slide">
                   <div className="service-card">
                     <div
                       className="service-overlay"
@@ -228,7 +202,7 @@ export const SectionD = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
