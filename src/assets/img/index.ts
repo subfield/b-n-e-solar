@@ -67,13 +67,6 @@ import Testi12 from "./testimonial/testi_1_2.png";
 import Testi13 from "./testimonial/testi_1_3.png";
 import Testi14 from "./testimonial/testi_1_4.png";
 import Testi15 from "./testimonial/testi_1_5.png";
-import Testi16 from "./testimonial/testi_1_6.jpg";
-import Testi17 from "./testimonial/testi_1_7.jpg";
-import Testi18 from "./testimonial/testi_1_8.jpg";
-import Testi19 from "./testimonial/testi_1_9.jpg";
-import Testi110 from "./testimonial/testi_1_10.jpg";
-import Testi111 from "./testimonial/testi_1_11.jpg";
-import Testi112 from "./testimonial/testi_1_12.jpg";
 import Brand11 from "./brand/brand_1_1.svg";
 import Brand12 from "./brand/brand_1_2.svg";
 import Brand13 from "./brand/brand_1_3.svg";
@@ -149,13 +142,6 @@ export const Static = {
   Testi13,
   Testi14,
   Testi15,
-  Testi16,
-  Testi17,
-  Testi18,
-  Testi19,
-  Testi110,
-  Testi111,
-  Testi112,
   Shape2,
   Brand11,
   Brand12,
